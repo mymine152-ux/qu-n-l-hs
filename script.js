@@ -40,9 +40,9 @@ function tinhDiemTB(diemToan, diemVan, diemAnh) {
 function xepLoaiHS(diemTB) {
     if (diemTB >= 8.0) {
         return "Giỏi";
-    } else if (diemTB >= 6.5) {
+    } else if (diemTB >= 6.5 && diemTB < 8) {
         return "Khá";
-    } else if (diemTB >= 5.0) {
+    } else if (diemTB >= 5.0 && diemTB < 6.5) {
         return "TrungBình";
     } else {
         return "Yếu";
